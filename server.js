@@ -5,15 +5,15 @@ import Videos from './dbModel.js';
 
 // app config
 const app = express();
-const port = 9000;
+const port = process.env.PORT || 9000;
 
 // middlwares
 app.use(express.json());
 app.use((req,res,next)=>{
-    res.setHeaders('Access-Control-Allow-Origin','*'),
-    res.setHeaders('Access-Control-Allow-Headers','*'),
-    next()
-})
+    res.setHeader("Access-Control-Allow-Origin", "*"),
+    res.setHeader("Access-Control-Allow-Headers","*"),
+    next();
+});
 
 // db config
 const connection_url = 'mongodb+srv://admin:9bMV51buBSy6TYtt@cluster0.zgd3y.mongodb.net/tiktok?retryWrites=true&w=majority';
