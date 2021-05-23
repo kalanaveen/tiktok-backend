@@ -1,0 +1,48 @@
+const data = [
+    {
+        url: "https://www.statusgreet.com/uploads/video/2021/05/ky-apka-number-mil-sakta-hai-tiktok-video.mp4",
+        channel:"naveenkala",
+        description:"awesome one",
+        song :"in the end",
+        likes:"110",
+        messages:"80",
+        shares:"12",
+    },
+    {
+        url: "https://www.statusgreet.com/uploads/video/2021/05/funny-video-tum-hara-dil-kiske-pass-hai.mp4",
+        channel:"naveenkala",
+        description:"faboous videos",
+        song :"in the end react will win",
+        likes:"21000",
+        messages:"800",
+        shares:"120",
+    },
+    {
+        url: "https://www.statusgreet.com/uploads/video/2021/05/angel-rai-funny-video.mp4",
+        channel:"naveenkala",
+        description:"start videos",
+        song :"in the end nodejs  will win",
+        likes:"51000",
+        messages:"1800",
+        shares:"180",
+    },
+    {
+        url: "https://www.statusgreet.com/uploads/video/2021/05/funny-tiktok-video.mp4",
+        channel:"naveenkala",
+        description:"loving videos",
+        song :"in the end mongodb  will win",
+        likes:"71000",
+        messages:"2000",
+        shares:"200",
+    },
+    {
+        url: "https://www.statusgreet.com/uploads/video/2021/05/arishifa-khan-new-viral-video.mp4",
+        channel:"naveenkala",
+        description:"loving beautifull videos",
+        song :"in the end mongodb and express will win",
+        likes:"91000",
+        messages:"12000",
+        shares:"250",
+    },
+];
+export default data;
